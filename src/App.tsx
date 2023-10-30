@@ -1,7 +1,17 @@
+import Education from "./sections/Education";
+import Experience from "./sections/Experience";
+import Footer from "./sections/Footer";
+import Header from "./sections/Header";
+import Portfolio from "./sections/Portfolio";
+
 export default function App() {
   return (
     <>
-      <h1 className="text-9xl font-bold underline">Hello world!</h1>
+      <Header />
+      <Portfolio />
+      <Experience />
+      <Education />
+      <Footer />
     </>
   );
 }
